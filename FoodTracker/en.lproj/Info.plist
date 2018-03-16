@@ -42,6 +42,6 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Use photos for food pictures</string>
+	<string>Allows you to add photos to your meals</string>
 </dict>
 </plist>

@@ -13,6 +13,7 @@
 		1A63D85F203E22E200558212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A63D85E203E22E200558212 /* Assets.xcassets */; };
 		1A63D862203E22E200558212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A63D860203E22E200558212 /* LaunchScreen.storyboard */; };
 		1A63D86D203E22E200558212 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A63D86C203E22E200558212 /* FoodTrackerTests.swift */; };
+		1AD918A1205B6F3B005339B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD918A0205B6F3B005339B3 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +33,11 @@
 		1A63D85C203E22E200558212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A63D85E203E22E200558212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A63D861203E22E200558212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1A63D863203E22E200558212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A63D868203E22E200558212 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A63D86C203E22E200558212 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		1A63D86E203E22E200558212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD918A0205B6F3B005339B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1AD918A2205B70AF005339B3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		1A63D84B203E22E200558212 = {
 			isa = PBXGroup;
 			children = (
+				1AD918A0205B6F3B005339B3 /* Default-568h@2x.png */,
 				1A63D856203E22E200558212 /* FoodTracker */,
 				1A63D86B203E22E200558212 /* FoodTrackerTests */,
 				1A63D855203E22E200558212 /* Products */,
@@ -77,12 +80,12 @@
 		1A63D856203E22E200558212 /* FoodTracker */ = {
 			isa = PBXGroup;
 			children = (
+				1AD918A2205B70AF005339B3 /* Info.plist */,
 				1A63D857203E22E200558212 /* AppDelegate.swift */,
 				1A63D859203E22E200558212 /* ViewController.swift */,
 				1A63D85B203E22E200558212 /* Main.storyboard */,
 				1A63D85E203E22E200558212 /* Assets.xcassets */,
 				1A63D860203E22E200558212 /* LaunchScreen.storyboard */,
-				1A63D863203E22E200558212 /* Info.plist */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A63D862203E22E200558212 /* LaunchScreen.storyboard in Resources */,
+				1AD918A1205B6F3B005339B3 /* Default-568h@2x.png in Resources */,
 				1A63D85F203E22E200558212 /* Assets.xcassets in Resources */,
 				1A63D85D203E22E200558212 /* Main.storyboard in Resources */,
 			);
